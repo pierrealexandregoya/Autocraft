@@ -1,0 +1,87 @@
+# 
+# Wavefront material file
+# Created with Kaydara FBX
+# 
+
+newmtl Material_012__col_2
+map_Kd Nor_2.jpg
+Ka 1.000000 1.000000 1.000000
+Kd 0.049961 0.049961 0.049961
+illum 1
+Tr 1.000000
+
+newmtl Material_028__col_2
+map_Kd Nor_2.jpg
+Ka 1.000000 1.000000 1.000000
+Kd 0.011098 0.011098 0.011098
+illum 1
+Tr 1.000000
+
+newmtl Material_002__col_2
+map_Kd Nor_2.jpg
+Ka 1.000000 1.000000 1.000000
+Kd 0.023859 0.023859 0.023859
+illum 1
+Tr 1.000000
+
+newmtl Material_030
+Ka 1.000000 1.000000 1.000000
+Kd 0.066044 0.066044 0.066044
+illum 1
+Tr 1.000000
+
+newmtl 4_001
+Ka 1.000000 1.000000 1.000000
+Kd 0.008846 0.008846 0.008846
+illum 1
+Tr 1.000000
+
+newmtl Material_010
+Ka 1.000000 1.000000 1.000000
+Kd 0.066044 0.066044 0.066044
+illum 1
+Tr 1.000000
+
+newmtl Material_027
+Ka 1.000000 1.000000 1.000000
+Kd 0.029719 0.029719 0.029719
+illum 1
+Tr 1.000000
+
+newmtl 4
+Ka 1.000000 1.000000 1.000000
+Kd 0.039195 0.039195 0.039195
+illum 1
+Tr 1.000000
+
+newmtl Material_019__Untitled_003
+map_Kd col_3.jpg
+Ka 1.000000 1.000000 1.000000
+Kd 0.037600 0.037600 0.037600
+illum 1
+Tr 1.000000
+
+newmtl Material_013__Untitled_003
+map_Kd col_3.jpg
+Ka 1.000000 1.000000 1.000000
+Kd 0.087040 0.087040 0.087040
+illum 1
+Tr 1.000000
+
+newmtl Material_029
+Ka 1.000000 1.000000 1.000000
+Kd 0.168638 0.168638 0.168638
+illum 1
+Tr 1.000000
+
+newmtl Material_001
+Ka 1.000000 1.000000 1.000000
+Kd 0.066044 0.066044 0.066044
+illum 1
+Tr 1.000000
+
+newmtl Material_003
+Ka 1.000000 1.000000 1.000000
+Kd 0.066044 0.066044 0.066044
+illum 1
+Tr 1.000000

@@ -20,7 +20,6 @@ public class MyCharacterController : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     private void Update()
     {
         Keyboard();
