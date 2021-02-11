@@ -76,8 +76,8 @@ public:
 
     void                            shutdown();
     bool                            is_player_connected(std::string const& name);
-    void                            register_player(std::shared_ptr<connection> & conn/*, std::shared_ptr<player> const& new_ent*/);
-    void                            register_master(std::shared_ptr<connection> & conn);
+    void                            register_player(std::shared_ptr<connection>  conn/*, std::shared_ptr<player> const& new_ent*/);
+    void                            register_master(std::shared_ptr<connection>  conn);
     std::shared_ptr<persistence>    get_persistence();
     connections const&              get_connections() const;
     entities const&                 get_entities() const;

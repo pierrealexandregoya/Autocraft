@@ -105,6 +105,7 @@ namespace AutoCraft
             statusText.text = "Connecting...";
             webSocket.OnOpen += () =>
             {
+                Debug.Log("OPENED");
                 AuthRequest authRequest = new AuthRequest();
                 authRequest.playerName = "Player123";
                 webSocket.SendText(JsonUtility.ToJson(authRequest));
@@ -142,7 +143,7 @@ namespace AutoCraft
 
 
             state = State.Connecting;
-
+            Debug.Log("Connecting");
             _ = webSocket.Connect();
         }
 

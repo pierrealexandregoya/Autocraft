@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 1715260733}
   - component: {fileID: 1715260732}
   m_Layer: 0
-  m_Name: MyCharacterController
+  m_Name: CharacterController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -978,6 +978,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
       objectReference: {fileID: 0}
@@ -990,6 +994,10 @@ PrefabInstance:
       value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1000,14 +1008,6 @@ PrefabInstance:
     - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4821660266910536976, guid: cd28dcd65a4364a4a91186765683d6cc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

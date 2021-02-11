@@ -116,7 +116,7 @@ void server::shutdown()
 //     AUTOCRAFT_LOG("SERVER", "PLAYER " << player_conn->player_name() << " REGISTERED");
 // }
 
-void server::register_player(std::shared_ptr<connection>& conn)
+void server::register_player(std::shared_ptr<connection> conn)
 {
     std::shared_ptr<player_conn> player_conn(new player_conn(std::move(*conn)));
     player_conn->follow_up();
@@ -129,7 +129,7 @@ void server::register_player(std::shared_ptr<connection>& conn)
     player_conns_.emplace_back(std::move(player_conn));
 }
 
-void server::register_master(std::shared_ptr<connection>& conn)
+void server::register_master(std::shared_ptr<connection> conn)
 {
     master_conn_ = std::shared_ptr<master_conn>(new master_conn(std::move(*conn)));
     master_conn_->follow_up();
